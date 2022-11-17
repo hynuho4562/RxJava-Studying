@@ -11,5 +11,5 @@
     하나의 데이터 흐름은 다른 데이터 흐름으로 변형되기도 한다.<br><br>
     
   <h2>Observable</h2>
-  - Observable을 구독하는 --- Observer --- 가 존재하고,
+  - Observable을 구독하는 *** Observer *** 가 존재하고,
 </div>
