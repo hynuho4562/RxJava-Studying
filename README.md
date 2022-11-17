@@ -12,6 +12,8 @@
     
   <h2>시작하기 전 코드 알아보기</h2>
   
+</div>
+
   ```
 Observable<String> source = Observable.create(emitter -> {
   emitter.onNext("Hello");
@@ -19,5 +21,3 @@ Observable<String> source = Observable.create(emitter -> {
   emitter.onComplete();
 });
   ```
-  
-</div>
