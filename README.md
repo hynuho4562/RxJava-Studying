@@ -16,7 +16,5 @@
     emitter.onNext("Yena");
     emitter.onComplete();
   });
-  
-  source.subscribe(System.out::println);
   ```
 </div>
