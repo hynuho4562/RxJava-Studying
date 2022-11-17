@@ -11,7 +11,8 @@
     하나의 데이터 흐름은 다른 데이터 흐름으로 변형되기도 한다.<br><br>
     
   <h2>시작하기 전 코드 알아보기</h2>
-   ```Observable<String> source = Observable.create(emitter -> {```
+   ```
+  Observable<String> source = Observable.create(emitter -> {```
     emitter.onNext("Hello");
     emitter.onNext("Yena");
     emitter.onComplete();
