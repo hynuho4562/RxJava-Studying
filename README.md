@@ -18,7 +18,7 @@
     emitter.onComplete();
   });
   
-source.subscribe(System.out::println);
+  source.subscribe(System.out::println);
 ```
   
 </div>
