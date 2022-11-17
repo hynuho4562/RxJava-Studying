@@ -20,9 +20,11 @@ Observable<String> source = Observable.create(emitter -> {
       emitter.onNext("Yena");
       emitter.onComplete();
 });
+
+// Observable.create()를 사용하면 Emitter를 이용하여 직접 아이템을 발행하고, 아이템 발행의 완료나 오류<br>
+  (Complete/Error)의 알림을 직접 설정할 수 있다.
+
 ```
 
 <div align="center">
-  Observable.create()를 사용하면 Emitter를 이용하여 직접 아이템을 발행하고, 아이템 발행의 완료나 오류<br>
-  (Complete/Error)의 알림을 직접 설정할 수 있다.
 </div>
