@@ -19,6 +19,5 @@
   });
   
   source.subscribe(System.out::println);
-```
   
 </div>
