@@ -16,7 +16,7 @@
 
   ```
 Observable<String> source = Observable.create(emitter -> {
-  > emitter.onNext("Hello");
+    emitter.onNext("Hello");
   emitter.onNext("Yena");
   emitter.onComplete();
 });
