@@ -11,5 +11,8 @@
     하나의 데이터 흐름은 다른 데이터 흐름으로 변형되기도 한다.<br><br>
     
   <h2>Observable</h2>
-  - Observable을 구독하는 *** Observer *** 가 존재하고,
+  - Observable을 구독하는 Observer가 존재하고, Observable이 순차적으로 발행하는 데이터에 대해서 반응한다.<br>
+  - onNext(): 하나의 소스 Observable에서 Observer까지 한 번에 하나씩 순차적으로 데이터를 발행한다.<br>
+  - onComplete(): 데이터 발행이 끝났음을 알리는 완료 이벤트를 Observer에 전달하여 onNext()를 더 호출하지 않음을 나타낸다.<br>
+  
 </div>
