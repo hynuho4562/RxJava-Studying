@@ -28,6 +28,9 @@
  
  ## Reactive Streams란?
 > 라이브러리나 프레임워크에 상관없이 데이터 스트림을 비동기로 다룰 수 있는 공통 매커니즘
+> 데이터를 만들어 통지하는 Publisher(생산자)와 통지된 데이터를 받아 처리하는 Subscriber(소비자)로 구성된다.
+
+![Uploading observer-pattern.png…]()
   
  <h2>시작하기 전 코드 알아보기</h2>
   
