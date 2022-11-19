@@ -32,7 +32,9 @@
 
 ![Sequence-diagram-of-the-publish-subscribe-model](https://user-images.githubusercontent.com/118269278/202840330-a2f2705b-2920-4d12-8ec9-95913a1ea558.png)
 
-|프토토콜|설명|
+<br><br>
+## Reactive Streams의 규칙 (참고)
+> reactive-streams-jvm/README.md: https://github.com/reactive-streams/reactive-streams-jvm/blob/master/README.md
 
  <h2>시작하기 전 코드 알아보기</h2>
   
@@ -48,5 +50,3 @@ Observable.create()를 사용하면 Emitter를 이용하여 직접 아이템을 
 
 ```
 
-<div align="center">
-</div>
