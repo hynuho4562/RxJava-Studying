@@ -30,8 +30,8 @@
 > 라이브러리나 프레임워크에 상관없이 데이터 스트림을 비동기로 다룰 수 있는 공통 매커니즘
 > 데이터를 만들어 통지하는 Publisher(생산자)와 통지된 데이터를 받아 처리하는 Subscriber(소비자)로 구성된다.
 
-![Uploading observer-pattern.png…]()
-  
+![Sequence-diagram-of-the-publish-subscribe-model](https://user-images.githubusercontent.com/118269278/202840330-a2f2705b-2920-4d12-8ec9-95913a1ea558.png)
+
  <h2>시작하기 전 코드 알아보기</h2>
   
 ```
