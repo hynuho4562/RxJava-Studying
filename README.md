@@ -32,6 +32,8 @@
 
 ![Sequence-diagram-of-the-publish-subscribe-model](https://user-images.githubusercontent.com/118269278/202840330-a2f2705b-2920-4d12-8ec9-95913a1ea558.png)
 
+|프토토콜|설명|
+
  <h2>시작하기 전 코드 알아보기</h2>
   
 ```
