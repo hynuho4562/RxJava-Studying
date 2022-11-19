@@ -35,7 +35,7 @@
 <br><br>
 ## Reactive Streams의 규칙 (참고)
 > 어떤 규칙이 있는지 확인하기 -> reactive-streams-jvm/README.md: https://github.com/reactive-streams/reactive-streams-jvm/blob/master/README.md
->> 기본 규칙
+>> ### 기본 규칙
 >> - 구독 시작 통지(onSubscribe)는 해당 구독에서 한 번만 발생한다.
 >> - 통지는 순차적으로 이루어진다.
 >> - null을 통지하지 않는다.
