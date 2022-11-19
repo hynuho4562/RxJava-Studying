@@ -34,8 +34,6 @@
   
  <h2>시작하기 전 코드 알아보기</h2>
   
-  
-
 ```
 Observable<String> source = Observable.create(emitter -> {
       emitter.onNext("Hello");
