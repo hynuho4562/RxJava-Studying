@@ -24,11 +24,14 @@
  
  ### RxJava의 또 다른 특징
  > 쉬운 비동기 처리를 들 수 있다.
- >> Observable 규약이라는 RxJava 개발 가이드라인을 따른 구현이라면 직접 스레드를 관리하는 번거로움에서 해방될 뿐만 아니라 구현도 간단히 할 수 있다.
-  <h2>시작하기 전 코드 알아보기</h2>
-
-## Reactive Streams란?
+ >> Observable 규약이라는 RxJava 개발 가이드라인을 따른 구현이라면 직접 스레드를 관리하는 번거로움에서 해방될 뿐만 아니라 구현도 간단히 할 수 있다.<br><br>
+ 
+ ## Reactive Streams란?
 > 라이브러리나 프레임워크에 상관없이 데이터 스트림을 비동기로 다룰 수 있는 공통 매커니즘
+  
+ <h2>시작하기 전 코드 알아보기</h2>
+  
+  
 
 ```
 Observable<String> source = Observable.create(emitter -> {
