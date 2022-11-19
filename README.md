@@ -49,6 +49,8 @@
 |Reactive Streams 지원|Floawable|Subscriber|
 |Reactive Streams 미지원|Observable|Observer|
 
+## !! Observable과 Observable 간에 데이터를 교환할 때 Flowable과 Subscriber처럼 데이터 개수 요청은 하지 않고 데이터가 생성되자마자 Observer에 통지된다.
+
  <h2>시작하기 전 코드 알아보기</h2>
   
 ```
