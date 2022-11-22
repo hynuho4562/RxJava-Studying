@@ -85,4 +85,6 @@ Observable.create()를 사용하면 Emitter를 이용하여 직접 아이템을 
 > #### empty 메서드는 flatMap 메서드의 통지 데이터가 null일 때 이를 대신해 empty 메서드에서 생성한 Flowable/Observable로 이후 이 데이터를 통지 대상에서 제외한다.
 > #### error 메서드는 에러만 통지한다.
 > #### never 메서드는 아무것도 통지하지 않는다, 완료도 통지하지 않는다.
-> 
+> #### map 메서드는 통지하는 데이터를 변환한 뒤 변환된 데이터를 통지한다.
+> #### flatMap 메서드는 map 메서드와 마찬가지로 원본 데이터를 변환해 통지하는 연산자이다.
+> #### concatMap/concatMapDelayError 메서드는 원본 데이터를 Flowable/Observable로 변환해 이 변환한 Flowable/Observable의 데이터를 통지한다.
