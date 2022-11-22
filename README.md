@@ -71,3 +71,8 @@ Observable.create()를 사용하면 Emitter를 이용하여 직접 아이템을 
 
 ```
 
+<br><br>
+
+## 연산자 메서드 알아보기
+> ### just 메서드는 인자로 받은 데이터를 통지한다.
+> ### fromArray/fromIterable fromArray 메서드는 인자로 지정한 배열을, fromIterable 메서드는 인자로 지정한 Iterable에 담긴 객체를 순서대로 통지한다.
