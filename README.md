@@ -74,5 +74,15 @@ Observable.create()를 사용하면 Emitter를 이용하여 직접 아이템을 
 <br><br>
 
 ## 연산자 메서드 알아보기
-> ### just 메서드는 인자로 받은 데이터를 통지한다.
-> ### fromArray/fromIterable fromArray 메서드는 인자로 지정한 배열을, fromIterable 메서드는 인자로 지정한 Iterable에 담긴 객체를 순서대로 통지한다.
+> #### just 메서드는 인자로 받은 데이터를 통지한다.
+> #### fromArray/fromIterable fromArray 메서드는 인자로 지정한 배열을, fromIterable 메서드는 인자로 지정한 Iterable에 담긴 객체를 순서대로 통지한다.
+> #### fromCallable 메서드는 인자로 지정한 함수형 인터페이스에서 생성한 데이터를 통지한다.
+> #### range 메서드는 지정한 시작 숫자부터 지정한 개수만큼 하나씩 순서대로 증가하는 Integer 값 데이터를 통지하는 Flowable/Observable을 생성하는 연산자이다.
+> #### rangeLong 메서드는 같은 방식으로 Long 값 데이터를 통지한다.
+> #### interval 메서드는 지정한 통지 간격마다 0부터 시작하는 Long 타입의 숫자 데이터를 통지한다.
+> #### timer 메서드는 호출 시점부터 지정 시간 동안 대기한 뒤에 Long 타입 숫자 0 하나만 통지하고 종료한다.
+> #### defer 메서드는 구독이 발생할 때마다 함수형 인터페이스로 정의한다.
+> #### empty 메서드는 flatMap 메서드의 통지 데이터가 null일 때 이를 대신해 empty 메서드에서 생성한 Flowable/Observable로 이후 이 데이터를 통지 대상에서 제외한다.
+> #### error 메서드는 에러만 통지한다.
+> #### never 메서드는 아무것도 통지하지 않는다, 완료도 통지하지 않는다.
+> 
